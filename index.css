@@ -1,0 +1,102 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: right;
+    flex-wrap: wrap;
+    width: 100%;
+    border-bottom: 5px solid orange;
+  }
+  header, h1 {
+    text-align: left;
+  }
+
+
+  
+  
+  li.logo {
+    text-align: left;
+    height: 300px;
+    margin: 5px;
+
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  
+  #product, h1 {
+    justify-content: left;
+    width: 1000px;
+    margin: 0 auto;
+  }
+  .card {
+    flex: 0 0 45%; /* Adjust the width of each product item */
+    margin-bottom: 20px;
+    background-color: rgba(193, 191, 191, 0.949);
+    color: black;
+    padding: 20px;
+    border:15px solid rgb(235, 186, 94);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+
+  section #products,
+  h3,
+  button,
+  p{
+    height: 30px;
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+  }
+  #mission {
+    height: 700px;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
